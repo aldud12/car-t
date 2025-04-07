@@ -1245,12 +1245,63 @@ label {
 
 
 @media (max-width: 1024px){
+  .content8 {
+    gap: 30px;
+  }
+  .box-8 {
+    width: 320px;
+    height: 380px;
+  }
+  .img-8 {
+    width: 280px;
+    height: 200px;
+  }
+  .text-8 {
+    margin-right: 10%;
+    font-size: 18px;
+  }
+}
   
 @media (max-width: 768px){
-
+  .title8 {
+    font-size: 32px;
+  }
+  .text-8 {
+    text-align: center;
+    margin-right: 0;
+    font-size: 16px;
+  }
+  .content8 {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .box-8 {
+    width: 90%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .img-8 {
+    width: 100%;
+    height: auto;
+  }
+  .text_8 p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
 }
 @media (max-width: 540px){
-
+  .title8 {
+    font-size: 26px;
+  }
+  .text-8 {
+    font-size: 14px;
+  }
+  .text_8 p {
+    font-size: 16px;
+  }
+  .box-8 {
+    width: 95%;
+  }
 }
 /*sec08 end*/
 
@@ -1331,12 +1382,87 @@ label {
 }
 
 @media (max-width: 1024px){
-  
+  .box-9_1,
+  .box-9_2,
+  .box-9_3 {
+    width: 380px;
+    height: auto;
+  }
+
+  .text-9 {
+    width: 90%;
+    font-size: 17px;
+  }
+
+  .box-9_2 {
+    left: -4%;
+  }
+
+  .box-9_3 {
+    right: -4%;
+  }
 }
 @media (max-width: 768px){
+  .sec09 {
+    margin-top: 200px;
+  }
+  .content9 {
+    flex-direction: column;
+    gap: 20px; /* 박스 간격 추가 */
+    align-items: center;
+  }
 
+  .box-9_1,
+  .box-9_2,
+  .box-9_3 {
+    position: static !important; /* 겹침 방지 */
+    left: auto;
+    right: auto;
+    top: auto;
+    width: 90%; /* 화면 크기에 맞게 줄이기 */
+    height: auto;
+  }
+
+  .text-9 {
+    width: 90%;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .icon {
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .icon p {
+    font-size: 18px;
+    margin-left: 10px;
+  }
 }
 @media (max-width: 540px){
+  .container9 {
+    padding-bottom: 150px;
+  }
+  .title9 {
+    font-size: 26px;
+  }
+
+  .icon p {
+    font-size: 16px;
+  }
+
+  .icon i {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    line-height: 2.1;
+    padding-left: 15px;
+  }
+
+  .text-9 {
+    font-size: 15px;
+  }
 
 }
 /*sec09 end*/
